@@ -21,11 +21,26 @@ h1 {
     display: flex;
     width: 100%;
     background-color: lightgrey;
-    align-self: flex-start;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    padding: 5%;
+}
+
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: red;
+    text-decoration: none;
 }
 
 .info p {
-    width: 30%;
+    color: black;
+    width: 25%;
+    padding: 5%;
 }
 
 h2 {
@@ -47,3 +62,19 @@ h2 {
     width: 20%;
 }
 
+nav {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: space-between;
+
+}
